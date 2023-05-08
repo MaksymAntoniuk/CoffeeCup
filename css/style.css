@@ -1,0 +1,23 @@
+.navbar-nav {
+    justify-content: center;
+    width: -500px;
+}
+
+.nav-link,
+.disabled {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+
+    .navbar-nav {
+        display: flex;
+    }
+}
+
+
+
+
